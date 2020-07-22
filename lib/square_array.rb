@@ -1,5 +1,5 @@
-def square_array(array) #1, 2, 3
-  length = array.length   #3
+def square_array(array) 
+  length = array.length   
   while length.times do |number|
-    puts array[number]
+    puts array[number] * array[number]
 end
