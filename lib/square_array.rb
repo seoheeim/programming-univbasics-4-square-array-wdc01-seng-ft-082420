@@ -1,3 +1,3 @@
 def square_array(array)
-  while array.length
+  while array.length.times
 end
