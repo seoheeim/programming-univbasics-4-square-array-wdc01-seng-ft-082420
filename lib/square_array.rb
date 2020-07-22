@@ -1,6 +1,9 @@
-def square_array(numbers) 
-  new_numbers = [] 
-  length = numbers.length   
-  while length.times do 
-    puts numbers[length] ** 2 
+def square_array(numbers)
+  result = Array.new(numbers.size)
+  i = 0
+  while i < numbers.size
+    result[i] = numbers[i] ** 2
+    i += 1
+  end
+  result
 end
